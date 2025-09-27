@@ -1,16 +1,66 @@
-# React + Vite
+MediCare AI Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern healthcare management dashboard built with React, Vite, and Tailwind CSS. Features interactive charts, patient vitals, appointment management, lab reports, and full dark mode support.
 
-Currently, two official plugins are available:
+⚡ Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live dashboard here: https://medical-dashboard-9fa4e.web.app/
 
-## React Compiler
+🚀 Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Dashboard Analytics: Interactive Recharts for patient trends and statistics
 
-## Expanding the ESLint configuration
+Patient Vitals: Monitor weight, height, heart rate, glucose, temperature, and oxygen levels
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Appointments: Scrollable calendar with visual time slots and status indicators
+
+Lab Reports: View and download medical reports linked to patient profiles
+
+Dark Mode: Smooth light/dark toggle with persistent settings
+
+Responsive Design: Mobile-first layout optimized for all screen sizes
+
+🛠️ Tech Stack
+
+React 18 + Vite
+
+Tailwind CSS for styling
+
+Recharts for charts
+
+Lucide React for icons
+
+📁 Project Structure
+medicare-ai-dashboard/
+├── src/
+│   ├── components/
+│   │   ├── groupComponents/     # Sidenavbar, Topnavbar
+│   │   ├── dashboardWidgets/    # StatsCard, ChatInterface, AppointmentsSection, PatientVitals, LabReports, ReasonTrendChart
+│   │   └── pages/               # Dashboard page
+│   ├── contexts/                # Theme context
+│   ├── data.js                  # Sample data
+│   ├── App.jsx                  # Root component
+│   └── main.jsx                 # Entry point
+├── public/                      # Static assets
+├── tailwind.config.js           # Tailwind config
+├── vite.config.js               # Vite config
+└── package.json                 # Dependencies
+
+⚡ Installation
+git clone https://github.com/yourusername/medicare-ai-dashboard.git
+cd medicare-ai-dashboard
+npm install
+npm run dev
+
+
+Open your browser at: http://localhost:5173
+
+🤝 Contributing
+
+Use functional components with hooks
+
+Ensure dark mode compatibility
+
+Keep code clean and readable
+
+Built with ❤️ using React, Tailwind CSS, and Recharts
