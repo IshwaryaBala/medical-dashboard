@@ -30,30 +30,6 @@ Recharts for charts
 
 Lucide React for icons
 
-📁 Project Structure
-medicare-ai-dashboard/
-├── src/
-│   ├── components/
-│   │   ├── groupComponents/     # Sidenavbar, Topnavbar
-│   │   ├── dashboardWidgets/    # StatsCard, ChatInterface, AppointmentsSection, PatientVitals, LabReports, ReasonTrendChart
-│   │   └── pages/               # Dashboard page
-│   ├── contexts/                # Theme context
-│   ├── data.js                  # Sample data
-│   ├── App.jsx                  # Root component
-│   └── main.jsx                 # Entry point
-├── public/                      # Static assets
-├── tailwind.config.js           # Tailwind config
-├── vite.config.js               # Vite config
-└── package.json                 # Dependencies
-
-⚡ Installation
-git clone 
-cd frontend
-npm install
-npm run dev
-
-
-Open your browser at: http://localhost:5173
 
 🤝 Contributing
 
