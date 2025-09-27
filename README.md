@@ -47,8 +47,8 @@ medicare-ai-dashboard/
 └── package.json                 # Dependencies
 
 ⚡ Installation
-git clone https://github.com/yourusername/medicare-ai-dashboard.git
-cd medicare-ai-dashboard
+git clone 
+cd frontend
 npm install
 npm run dev
 
