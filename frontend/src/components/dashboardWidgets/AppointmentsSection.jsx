@@ -39,7 +39,7 @@ export default function AppointmentsSection() {
           className={`flex items-center gap-1 text-sm font-medium p-1 rounded-lg transition-colors ${
             isDark
               ? "text-blue-400 bg-gray-700 hover:bg-gray-600"
-              : "text-blue-600 bg-gray-200 hover:bg-gray-300"
+              : "text-[#004a8c] bg-gray-200 hover:bg-gray-300"
           }`}
         >
           <Plus size={16} />
@@ -88,7 +88,7 @@ export default function AppointmentsSection() {
                     day.active
                       ? isDark
                         ? "bg-blue-600 text-white font-medium"
-                        : "bg-blue-600 text-white font-medium"
+                        : "bg-[#004a8c] text-white font-medium"
                       : isDark
                       ? "text-gray-400 hover:bg-gray-700"
                       : "text-gray-500 hover:bg-gray-100"

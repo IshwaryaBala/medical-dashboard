@@ -38,7 +38,7 @@ export default function PatientVitals() {
           <div className="relative max-w-md">
             <Search
               className={`absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 ${
-                isDark ? "text-gray-400" : "text-blue-600"
+                isDark ? "text-gray-400" : "text-[#004a8c]"
               }`}
             />
             <input
@@ -46,7 +46,7 @@ export default function PatientVitals() {
               className={`w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:border-transparent text-sm transition-colors ${
                 isDark
                   ? "bg-gray-700 border-gray-600 text-gray-100 placeholder-gray-400 focus:ring-blue-500"
-                  : "bg-white border-gray-200 text-blue-600 placeholder-gray-500 focus:ring-blue-600"
+                  : "bg-white border-gray-200 text-[#004a8c] placeholder-gray-500 focus:ring-blue-600"
               }`}
             />
           </div>
@@ -56,7 +56,7 @@ export default function PatientVitals() {
         <div className="flex items-center gap-4 mb-6">
           <div
             className={`w-16 h-16 rounded-full flex items-center justify-center text-white text-xl font-bold ${
-              isDark ? "bg-blue-600" : "bg-blue-700"
+              isDark ? "bg-blue-600" : "bg-[#004a8c]"
             }`}
           >
             CP
@@ -85,7 +85,7 @@ export default function PatientVitals() {
             className={`flex-1 flex items-center justify-center py-3 px-4 rounded-lg font-medium text-sm transition-colors ${
               isDark
                 ? "bg-blue-600 hover:bg-blue-700 text-white"
-                : "bg-blue-700 hover:bg-blue-800 text-white"
+                : "bg-[#004a8c] hover:bg-blue-800 text-white"
             }`}
           >
             <Eye className="w-4 h-4 mr-2" />
@@ -95,7 +95,7 @@ export default function PatientVitals() {
             className={`flex-1 flex items-center justify-center py-3 px-4 rounded-lg font-medium text-sm transition-colors ${
               isDark
                 ? "bg-blue-600 hover:bg-blue-700 text-white"
-                : "bg-blue-700 hover:bg-blue-800 text-white"
+                : "bg-[#004a8c] hover:bg-blue-800 text-white"
             }`}
           >
             <FileText className="w-4 h-4 mr-2" />
@@ -165,7 +165,7 @@ export default function PatientVitals() {
                   >
                     <Icon
                       className={`w-5 h-5 ${
-                        isDark ? "text-blue-400" : "text-blue-600"
+                        isDark ? "text-blue-400" : "text-[#004a8c]"
                       }`}
                     />
                   </div>
@@ -207,7 +207,7 @@ export default function PatientVitals() {
                 className={`px-3 py-1 rounded-full text-sm font-medium ${
                   isDark
                     ? "bg-blue-900/30 text-blue-400"
-                    : "bg-blue-100 text-blue-600"
+                    : "bg-blue-100 text-[#004a8c]"
                 }`}
               >
                 {allergy}

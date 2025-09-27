@@ -62,7 +62,7 @@ export default function Topnavbar({ onToggleSidebar }) {
           <div className="hidden lg:block relative max-w-md">
             <Search
               className={`absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 ${
-                isDark ? "text-gray-400" : "text-blue-600"
+                isDark ? "text-gray-400" : "text-[#004a8c]"
               }`}
             />
             <input
@@ -70,7 +70,7 @@ export default function Topnavbar({ onToggleSidebar }) {
               className={`w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:border-transparent text-sm transition-colors ${
                 isDark
                   ? "bg-gray-700 border-gray-600 text-gray-100 placeholder-gray-400 focus:ring-blue-500"
-                  : "bg-white border-gray-200 text-blue-600 placeholder-gray-500 focus:ring-blue-600"
+                  : "bg-white border-gray-200 text-[#004a8c] placeholder-gray-500 focus:ring-blue-600"
               }`}
             />
           </div>
@@ -90,7 +90,7 @@ export default function Topnavbar({ onToggleSidebar }) {
             >
               <Headset
                 className={`w-4 h-4 ${
-                  isDark ? "text-gray-300" : "text-blue-600"
+                  isDark ? "text-gray-300" : "text-[#004a8c]"
                 }`}
               />
             </button>
@@ -105,7 +105,7 @@ export default function Topnavbar({ onToggleSidebar }) {
             >
               <Bell
                 className={`w-4 h-4 ${
-                  isDark ? "text-gray-300" : "text-blue-600"
+                  isDark ? "text-gray-300" : "text-[#004a8c]"
                 }`}
               />
               <span className="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full"></span>
@@ -138,7 +138,7 @@ export default function Topnavbar({ onToggleSidebar }) {
             >
               <Headset
                 className={`w-4 h-4 ${
-                  isDark ? "text-gray-300" : "text-blue-600"
+                  isDark ? "text-gray-300" : "text-[#004a8c]"
                 }`}
               />
             </button>
@@ -153,7 +153,7 @@ export default function Topnavbar({ onToggleSidebar }) {
             >
               <Bell
                 className={`w-4 h-4 ${
-                  isDark ? "text-gray-300" : "text-blue-600"
+                  isDark ? "text-gray-300" : "text-[#004a8c]"
                 }`}
               />
               <span className="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full"></span>
@@ -175,7 +175,7 @@ export default function Topnavbar({ onToggleSidebar }) {
             >
               <div
                 className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${
-                  isDark ? "bg-blue-600" : "bg-blue-700"
+                  isDark ? "bg-blue-600" : "bg-[#004a8c]"
                 }`}
               >
                 <span className="text-white text-sm font-medium">A</span>
@@ -185,14 +185,14 @@ export default function Topnavbar({ onToggleSidebar }) {
               <div className="hidden sm:flex flex-col items-start leading-tight">
                 <span
                   className={`text-sm font-medium ${
-                    isDark ? "text-gray-100" : "text-blue-600"
+                    isDark ? "text-gray-100" : "text-[#004a8c]"
                   }`}
                 >
                   Admin
                 </span>
                 <span
                   className={`text-xs lg:text-sm ${
-                    isDark ? "text-gray-300" : "text-blue-600"
+                    isDark ? "text-gray-300" : "text-[#004a8c]"
                   }`}
                 >
                   admin@gmail.com
@@ -200,7 +200,7 @@ export default function Topnavbar({ onToggleSidebar }) {
               </div>
               <ChevronDown
                 className={`w-4 h-4 hidden sm:block ${
-                  isDark ? "text-gray-300" : "text-blue-600"
+                  isDark ? "text-gray-300" : "text-[#004a8c]"
                 }`}
               />
             </button>
@@ -217,7 +217,7 @@ export default function Topnavbar({ onToggleSidebar }) {
                   className={`block w-full text-left px-4 py-2 text-sm transition-colors ${
                     isDark
                       ? "text-gray-300 hover:bg-gray-700"
-                      : "text-blue-600 hover:bg-gray-50"
+                      : "text-[#004a8c] hover:bg-gray-50"
                   }`}
                 >
                   Profile
@@ -226,7 +226,7 @@ export default function Topnavbar({ onToggleSidebar }) {
                   className={`block w-full text-left px-4 py-2 text-sm transition-colors ${
                     isDark
                       ? "text-gray-300 hover:bg-gray-700"
-                      : "text-blue-600 hover:bg-gray-50"
+                      : "text-[#004a8c] hover:bg-gray-50"
                   }`}
                 >
                   Settings

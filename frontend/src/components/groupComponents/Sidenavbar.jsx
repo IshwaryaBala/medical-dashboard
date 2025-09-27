@@ -90,12 +90,12 @@ export default function Sidenavbar({ isOpen, onClose }) {
                   className={`w-full flex items-center gap-3 px-4 py-2 text-left rounded-lg text-sm font-medium transition-all duration-200 ${
                     item.active
                       ? `text-white shadow-sm ${
-                          isDark ? "bg-blue-600" : "bg-blue-700"
+                          isDark ? "bg-blue-600" : "bg-[#004a8c]"
                         }`
                       : `${
                           isDark
                             ? "hover:bg-gray-700 text-gray-300"
-                            : "hover:bg-gray-100 text-blue-700"
+                            : "hover:bg-gray-100 text-[#004a8c]"
                         }`
                   } ${
                     needsBorder
@@ -123,7 +123,7 @@ export default function Sidenavbar({ isOpen, onClose }) {
                 {item.active && (
                   <div
                     className={`absolute -right-3 top-1/2 transform -translate-y-1/2 w-1 h-10 rounded-l-full ${
-                      isDark ? "bg-blue-500" : "bg-blue-700"
+                      isDark ? "bg-blue-500" : "bg-[#004a8c]"
                     }`}
                   />
                 )}
@@ -159,7 +159,7 @@ export default function Sidenavbar({ isOpen, onClose }) {
                   D
                 </div>
               </div>
-              <span className="text-xs font-medium ml-2 text-gray-100">
+              <span className="text-xs font-medium ml-2 text-gray-500">
                 4 Members
               </span>
             </div>

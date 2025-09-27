@@ -73,7 +73,7 @@ export default function LabReports() {
         <div className="flex items-center gap-3 mb-4">
           <div
             className={`w-10 h-10 rounded-full flex items-center justify-center text-white text-sm font-medium ${
-              isDark ? "bg-blue-600" : "bg-blue-500"
+              isDark ? "bg-blue-600" : "bg-[#004a8c]"
             }`}
           >
             {patientDataLab.avatar}

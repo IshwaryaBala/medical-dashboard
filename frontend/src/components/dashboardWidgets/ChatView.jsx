@@ -67,7 +67,7 @@ const ChatInterface = () => {
                 className={`px-4 py-1.5 text-sm rounded-full shadow-sm transition-colors ${
                   isDark
                     ? "bg-blue-600 text-white hover:bg-blue-700"
-                    : "bg-blue-500 text-white hover:bg-blue-600"
+                    : "bg-blue-500 text-white hover:bg-[#004a8c]"
                 }`}
               >
                 Clarified
@@ -113,11 +113,11 @@ const ChatInterface = () => {
                       msg.type === "sent"
                         ? isDark
                           ? "bg-blue-600 text-white hover:bg-blue-700"
-                          : "bg-blue-600 text-white hover:bg-blue-700"
+                          : "bg-[#004a8c] text-white hover:bg-blue-700"
                         : msg.type === "button"
                         ? isDark
                           ? "bg-blue-600 text-white cursor-pointer hover:bg-blue-700"
-                          : "bg-blue-600 text-white cursor-pointer hover:bg-blue-700"
+                          : "bg-[#004a8c] text-white cursor-pointer hover:bg-blue-700"
                         : isDark
                         ? "bg-gray-700 text-gray-100 border border-gray-600"
                         : "bg-white text-gray-800 border border-gray-100"
@@ -130,7 +130,7 @@ const ChatInterface = () => {
                   {msg.type === "sent" && (
                     <div
                       className={`w-8 h-8 rounded-full flex items-center justify-center ml-3 flex-shrink-0 shadow-lg ${
-                        isDark ? "bg-blue-600" : "bg-blue-600"
+                        isDark ? "bg-blue-600" : "bg-[#004a8c]"
                       }`}
                     >
                       <User size={14} className="text-white" />
